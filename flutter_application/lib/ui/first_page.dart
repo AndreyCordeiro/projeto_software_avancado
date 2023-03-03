@@ -14,7 +14,7 @@ class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('First Page')),
+      appBar: AppBar(title: const Text('Validação de CPF')),
       body: Form(
         key: _formKey,
         child: Center(
@@ -42,7 +42,7 @@ class FirstPage extends StatelessWidget {
                     {
                       CustomAlertDialog.showAlertDialog(
                         context: context,
-                        tittle: 'O CPF informado foi:',
+                        tittle: 'CPF válido!',
                         comment: cpf,
                       ),
                     }
