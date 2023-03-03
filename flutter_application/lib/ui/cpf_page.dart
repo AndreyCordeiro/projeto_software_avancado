@@ -3,10 +3,10 @@ import 'package:flutter_application/core/components/alert_dialog.dart';
 import 'package:flutter_application/core/components/cpf_validator.dart';
 import 'package:flutter_application/core/components/text_form_fiel.dart';
 
-class FirstPage extends StatelessWidget {
+class CpfPage extends StatelessWidget {
   final Key? key;
 
-  FirstPage({this.key}) : super(key: key);
+  CpfPage({this.key}) : super(key: key);
 
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   String cpf = '';
