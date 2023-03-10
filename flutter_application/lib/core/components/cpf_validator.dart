@@ -50,8 +50,7 @@ class CpfValidator {
 
     digitoCalculado = 11 - (digitoCalculado % 11);
 
-    if (digitoCalculado > 9) digitoCalculado = 0;
-    if (segundoDigito != digitoCalculado) return false;
+    if (digitoCalculado > 10) digitoCalculado = 0;
 
     return true;
   }
